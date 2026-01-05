@@ -348,6 +348,24 @@ v16:CreateButton({
     end
 })
 v16:CreateButton({
+    ["Name"] = "Emoji rain (Toggle = J)",
+    ["Callback"] = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/4vEQZEVd"))()
+    end
+})
+v16:CreateButton({
+    ["Name"] = "WS and JP (Toggle = N)",
+    ["Callback"] = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/KYFCzTxy"))()
+    end
+})
+v16:CreateButton({
+    ["Name"] = "Autolock, Tracer, TP",
+    ["Callback"] = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/D33Q3pM3"))()
+    end
+})
+v16:CreateButton({
     ["Name"] = "Anti Cheat Finder (BEST)",
     ["Callback"] = function()
         loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/anti"))()
