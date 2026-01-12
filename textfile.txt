@@ -259,6 +259,12 @@ v6:CreateButton({
     end
 })
 v6:CreateButton({
+    ["Name"] = "Wished Games",
+    ["Callback"] = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/fvCc5qJ5"))()
+    end
+})
+v6:CreateButton({
     ["Name"] = "Destroy Gui",
     ["Callback"] = function()
 		-- upvalues: (ref) vu2
